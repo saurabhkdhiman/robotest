@@ -1,0 +1,12 @@
+*** Setting ***
+Library	SeleniumLibrary
+*** Variable ***
+${var}	4
+${var1}	4
+*** Test Cases ***
+case
+	Open Browser	https://www.facebook.com	chrome
+	Maximize Browser Window
+	Sleep	2
+	Input Text	class:inputtext	hello
+	
